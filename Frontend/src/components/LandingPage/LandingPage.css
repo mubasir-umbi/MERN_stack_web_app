@@ -1,0 +1,58 @@
+.main{
+    min-height: 93vh;
+    display: flex;
+    align-items: center;
+    background-color: azure;
+    background-position: center;
+    background-size: cover;
+}
+
+.title{
+    font-size: 95px;
+}
+
+.sub-title{
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+.intro-text{
+    width: 100%;
+    text-align: center;
+}
+
+.btn-container{
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.landing-btn{
+    width: 200px;
+    height: 55px;
+}
+
+@media only screen and (min-width: 1200px){
+    .btn-container{
+        padding: 0 200px;
+    }
+
+    .title{
+        padding: 0 100px;
+    }
+}
+
+
+@media only screen and (min-width: 768px){
+    .landing-btn{
+        width: 150px;
+        height: 50px;
+    }
+
+    .title{
+        font-size: 60px;
+    }
+}
+
